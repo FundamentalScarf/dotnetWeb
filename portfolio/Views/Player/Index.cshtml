@@ -1,0 +1,20 @@
+﻿@model IEnumerable<portfolio.Models.Player>
+
+@foreach(var player in Model)
+{
+	<tr>
+		<td>
+			@Html.DisplayFor(modelItem => player.Name)
+		</td>
+	</tr>
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Player</title>
+</head>
+<body>
+</body>
+</html>
+

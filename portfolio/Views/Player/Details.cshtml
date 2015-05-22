@@ -1,0 +1,22 @@
+﻿@model portfolio.Models.Player
+
+@{
+    viewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+	<h4>Player</h4>
+		<hr />
+	<dl class="dl-horisontal">
+		<dt>
+			@HtmlHelper.DisplayNameFor(ModelError => ModelError.Name)
+		</dt>
+		@*Markup omitted for clarity.*@
+	</dl>
+</div>
+<p>
+	@Html.ActionLink("Edit", "Edit", new { id = Model.ID}) |
+	@Html.ActionLink("Back to List", "Index")
+</p>
