@@ -1,13 +1,11 @@
 ﻿<Properties StartupItem="portfolio/portfolio.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="firefox" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="portfolio/Controllers/AccountController.cs">
     <Files>
-      <File FileName="portfolio/Controllers/HomeController.cs" Line="14" Column="24" />
-      <File FileName="portfolio/Controllers/HelloWorldController.cs" Line="1" Column="1" />
-      <File FileName="portfolio/Views/HelloWorld/Index.cshtml" Line="1" Column="1" />
-      <File FileName="portfolio/Views/HelloWorld/Welcome.cshtml" Line="1" Column="1" />
-      <File FileName="portfolio/Models/Player.cs" Line="2" Column="26" />
-      <File FileName="portfolio/Web.config" Line="134" Column="17" />
+      <File FileName="portfolio/Controllers/AccountController.cs" Line="311" Column="3" />
+      <File FileName="portfolio/Models/AccountViewModels.cs" Line="1" Column="1" />
+      <File FileName="portfolio/Models/IdentityModels.cs" Line="1" Column="1" />
+      <File FileName="portfolio/Global.asax.cs" Line="22" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

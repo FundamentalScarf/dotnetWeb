@@ -9,11 +9,18 @@ using System.Data.Entity;
 using portfolio.Models;
 using portfolio.DAL;
 
+using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
 namespace portfolio
 {
 	public class MvcApplication : System.Web.HttpApplication
 	{
+
+		public static void RegisterModule (Type moduleType)
+		{
+			DynamicModuleUtility.RegisterModule(moduleType);
+		}
+
 		public static void RegisterRoutes (RouteCollection routes)
 		{
 			routes.IgnoreRoute ("{resource}.axd/{*pathInfo}");

@@ -17,3 +17,9 @@
 /home/percy/workspace/portfolio/portfolio/bin/MySql.Data.Entity.EF6.dll
 /home/percy/workspace/portfolio/portfolio/bin/MySql.Fabric.Plugin.dll
 /home/percy/workspace/portfolio/portfolio/bin/MySql.Web.dll
+/home/percy/workspace/portfolio/portfolio/bin/Microsoft.AspNet.Identity.Core.dll
+/home/percy/workspace/portfolio/portfolio/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+/home/percy/workspace/portfolio/portfolio/bin/Owin.dll
+/home/percy/workspace/portfolio/portfolio/bin/Microsoft.Owin.dll
+/home/percy/workspace/portfolio/portfolio/bin/Microsoft.Owin.Security.dll
+/home/percy/workspace/portfolio/portfolio/bin/Microsoft.Owin.Host.SystemWeb.dll

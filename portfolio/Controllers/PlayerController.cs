@@ -20,9 +20,9 @@ namespace portfolio.Controllers
 			return View (db.Players.ToList());
         }
 
-		public ActionResult Details(int id)
+		public ActionResult Details(int? id = -1)
 		{
-			if(id == null)
+			if(id == -1)
 			{
 				return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
 			}
